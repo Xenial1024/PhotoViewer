@@ -13,9 +13,9 @@ using static System.Net.WebRequestMethods;
 
 namespace PhotoViewer
 {
-    protected internal partial class Main : Form
+    public partial class Main : Form
     {
-        Main()
+        public Main()
         {
             InitializeComponent();
 
